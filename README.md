@@ -33,10 +33,16 @@ Full technical details and ablation notes are available in [`main.pdf`](main.pdf
 
 ## Reproduction
 
-Install the pinned dependencies (Python 3.10+ with CUDA support recommended for CatBoost and PyTorch)[cite: 1, 2]:
+Clone the repository and install the pinned dependencies (Python 3.12+ with a CUDA-enabled GPU recommended for CatBoost and PyTorch):
 
 ```bash
+git clone [https://github.com/MLJoson/simulacrabench-cpp-dsai.git](https://github.com/MLJoson/simulacrabench-cpp-dsai.git)
+cd simulacrabench-cpp-dsai
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+```
+
 
 ## Data Use & Compliance
 
