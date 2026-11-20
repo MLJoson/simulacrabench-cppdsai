@@ -15,11 +15,7 @@ Full technical details and ablation notes are available in [`main.pdf`](main.pdf
 
 ---
 
-## Method Overview
 
-[INSERT HERE]
-
----
 
 
 ## Repository Guide
@@ -46,4 +42,4 @@ pip install -r requirements.txt
 
 ## Data Use & Compliance
 
-At inference time, `predict(frame, schema)` operates strictly on the input DataFrame and schema metadata provided by the evaluation harness, with no external data or pretrained weights[cite: 1]. No respondent microdata is stored or redistributed in this repository, and no attempt was made to re-identify respondents or link records to external sources.
+At inference time, `predict(frame, schema)` operates strictly on the input DataFrame and schema metadata provided by the evaluation harness, with no external data or pretrained weights. No respondent microdata is stored or redistributed in this repository, and no attempt was made to re-identify respondents or link records to external sources.
